@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="ColinCCook.WorkerPopulator/ColinCCook.WorkerPopulator.csproj" />
+  <Project Path="ColinCCook.WorkerRepeater.AppHost/ColinCCook.WorkerRepeater.AppHost.csproj" />
+  <Project Path="ColinCCook.WorkerRepeater/ColinCCook.WorkerRepeater.csproj" />
+</Solution>
