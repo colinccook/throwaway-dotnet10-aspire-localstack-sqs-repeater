@@ -17,3 +17,6 @@ This is a solution that has an Aspire project. I wanted to experiment with a loc
 - WorkerRepeater creates SQS topics if they don't exist. In prod, we want our cloud landscape to have been already created. I want to research alternative ways to set up these queues
 - WorkerRepeater isn't efficiently polling the InputQueue
 - Run some sort of local Observability
+- I'd love to write an integration test that proves the functionality
+  - One test to prove the happy path (one input = one output)
+  - One test with a bad payload to go into a dead letter queue
